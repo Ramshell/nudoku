@@ -1,0 +1,150 @@
+# Spanish translations for nudoku package.
+# Copyright (C) 2018 THE nudoku'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the nudoku package.
+# ramshell <ramshell@ramshell-satellite-l40dt-b>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nudoku\n"
+"Report-Msgid-Bugs-To: ramshellcinox@gmail.com\n"
+"POT-Creation-Date: 2018-04-19 19:02-0300\n"
+"PO-Revision-Date: 2018-04-19 20:55-0300\n"
+"Last-Translator: ramshell <ramshell@ramshell-satellite-l40dt-b>\n"
+"Language-Team: Argentinian\n"
+"Language: es_AR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: main.c:282
+msgid " H - Give a hint\n"
+msgstr ""
+
+#: main.c:287
+msgid " N - New puzzle\n"
+msgstr ""
+
+#: main.c:288
+msgid " Q - Quit\n"
+msgstr ""
+
+#: main.c:290
+msgid " S - Solve puzzle\n"
+msgstr ""
+
+#: main.c:281
+msgid " c - Check solution\n"
+msgstr ""
+
+#: main.c:276
+msgid " h - Move left\n"
+msgstr ""
+
+#: main.c:277
+msgid " j - Move down\n"
+msgstr ""
+
+#: main.c:278
+msgid " k - Move up\n"
+msgstr ""
+
+#: main.c:279
+msgid ""
+" l - Move right\n"
+"\n"
+msgstr ""
+
+#: main.c:285
+msgid " m - Toggle marks\n"
+msgstr ""
+
+#: main.c:289
+msgid " r - Redraw\n"
+msgstr ""
+
+#: main.c:550
+#, c-format
+msgid " with the help of %d hints"
+msgstr ""
+
+#: main.c:291
+msgid " x - Delete number\n"
+msgstr ""
+
+#: main.c:104
+#, c-format
+msgid "Character %c at position %d is not allowed.\n"
+msgstr ""
+
+#: main.c:280
+msgid "Commands\n"
+msgstr ""
+
+#: main.c:558
+msgid "Correct so far"
+msgstr ""
+
+#: main.c:513
+msgid "Generating puzzle..."
+msgstr ""
+
+#: main.c:275
+msgid "Movement\n"
+msgstr "Movimiento\n"
+
+#: main.c:539
+msgid "Not correct"
+msgstr ""
+
+#: main.c:586
+msgid "Provided hint"
+msgstr ""
+
+#: main.c:504 main.c:545
+msgid "Solved"
+msgstr ""
+
+#: main.c:498
+msgid "Solving puzzle..."
+msgstr ""
+
+#: main.c:118
+#, c-format
+msgid "Stream does not represent a valid sudoku puzzle.\n"
+msgstr ""
+
+#: main.c:112
+#, c-format
+msgid "Stream has to be %d characters long.\n"
+msgstr ""
+
+#: main.c:195
+msgid ""
+"Your terminal doesn't support colors.\n"
+"Try the nocolor (-c) option.\n"
+msgstr ""
+
+#: main.c:147
+msgid "easy"
+msgstr ""
+
+#: main.c:151
+msgid "hard"
+msgstr ""
+
+#: main.c:266
+#, c-format
+msgid ""
+"level: %s\n"
+"\n"
+msgstr ""
+
+#: main.c:149
+msgid "normal"
+msgstr ""
+
+#: main.c:263
+#, c-format
+msgid "nudoku %s\n"
+msgstr ""

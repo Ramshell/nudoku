@@ -6,7 +6,7 @@ AC_INIT([nudoku], [1.0.0], [jubalh@iodoru.org])
 AC_CONFIG_SRCDIR([src/main.c])
 AM_INIT_AUTOMAKE([foreign])
 AM_GNU_GETTEXT([external])
-AM_GNU_GETTEXT_VERSION([0.19.8])
+AM_GNU_GETTEXT_VERSION(0.19)
 
 # Checks for programs.
 AC_PROG_CC
@@ -26,7 +26,7 @@ AC_FUNC_MALLOC
 AC_CHECK_FUNCS([atexit strdup])
 
 # Set config files
-AC_CONFIG_FILES(Makefile src/Makefile po/Makefile.in)
+AC_CONFIG_FILES(Makefile src/Makefile)
 
 #AC_OUTPUT
 AC_OUTPUT()

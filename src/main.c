@@ -25,6 +25,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #include <time.h>				/* time */
 #include <string.h>				/* strcmp, strlen */
 #include "sudoku.h"				/* sudoku functions */
+#include "i18n.h"
 
 /* DEFINES */
 //#define VERSION				"0.1" //gets set via autotools
@@ -269,7 +270,7 @@ static void init_windows(void)
 		wattroff(infobox, A_BOLD|COLOR_PAIR(2));
 		wattron(infobox, COLOR_PAIR(1));
 	}
-	wprintw(infobox, "Movement\n");
+	wprintw(infobox, _("Movement\n"));
 	wprintw(infobox, " h - Move left\n");
 	wprintw(infobox, " j - Move down\n");
 	wprintw(infobox, " k - Move up\n");
@@ -389,6 +390,10 @@ static bool hint(void)
 
 int main(int argc, char *argv[])
 {
+	setlocale (LC_ALL, "");
+	bindtextdomain ("SUDOKU_H", LOCALEDIR);
+	textdomain ("SUDOKU_H");
+
 	bool run = true, enable_highlights=false;
 	int key, x, y, posx, posy;
 
@@ -619,4 +624,3 @@ int main(int argc, char *argv[])
 	endwin();
 	return EXIT_SUCCESS;
 }
-

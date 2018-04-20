@@ -1,3 +1,5 @@
-SUBDIRS = src
+SUBDIRS = po src
 dist_man_MANS = man/nudoku.6
-EXTRA_DIST = ChangeLog LICENSE README.md
+EXTRA_DIST = config.rpath m4/ChangeLog  ChangeLog LICENSE README.md
+
+ACLOCAL_AMFLAGS = -I m4
